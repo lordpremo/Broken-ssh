@@ -1,9 +1,0 @@
-{
-  "build": {
-    "builder": "docker"
-  },
-  "deploy": {
-    "startCommand": "/usr/sbin/sshd -D",
-    "restartPolicyType": "ON_FAILURE"
-  }
-}
